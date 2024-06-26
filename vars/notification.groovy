@@ -1,4 +1,4 @@
-def call(string buildstatus = 'STARTED') {
+def call(String buildstatus = 'STARTED') {
    buildstatus = buildstatus ?: 'SUCCESS'
    
    def color
